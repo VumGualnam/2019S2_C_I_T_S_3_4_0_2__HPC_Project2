@@ -1,12 +1,12 @@
 /* This project is done by the following students:
- * Names: Jonathan Koh (22045985) and Vum Suan Mang (22355071)
+ * Names: J. Koh (22045985) and V.S. Mang (22355071)
  *
  * File:      finalfloyd.c
  * Purpose:   This project implements  Floyd-Warshall algorithms to solve
  *			  the all-pairs-shortest path problem for a number of large graphs.
  *            
- * Compile:   mpicc -std=c99 finalfloyd.c
- * Run:       mpiexec -n <number of processes> ./finalfloyd <input_filename>
+ * Compile:   mpicc -std=c99 -o finalfloyd finalfloyd.c
+ * Run:       mpiexec -n <number of processes> ./finalfloyd <path_to_input_filename>
  * 			  (N.B. Program automatically writes to output file)
  *
  * Input:     filename containing the adjacency matrix (*.in files)
