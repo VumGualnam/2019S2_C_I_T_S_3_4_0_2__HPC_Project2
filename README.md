@@ -17,7 +17,8 @@ against graphs of 256, 512, 1024, 2048, 4096 vertices.
 
 ### How to compile and run 
 * #### Compile and run manually  
-  ```$ mpicc -std=c99 -o finalfloyd finalfloyd.c && mpiexec -n <number of processes> ./finalfloyd <input_filename>```  
+  ```$ mpicc -std=c99 -o finalfloyd finalfloyd.c```  
+  ```$ mpiexec -n <number of processes> ./finalfloyd <path_to_input_filename>```  
 #### or   
 * #### Use the `makefile`
   ```$ make && make report && make test```
